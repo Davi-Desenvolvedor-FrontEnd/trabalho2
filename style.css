@@ -11,13 +11,14 @@
     margin: 0 auto;
     position: relative;
     overflow: hidden;
+
 }
 
 .pipe{
     position: absolute;
     bottom: 0;
     width: 80px;
-    animation: pipe-animation 2s infinite linear;
+    animation: pipe-animation 1.5s infinite linear;
 }
 .mario{
     width: 150px;
@@ -41,7 +42,7 @@
     0%{
       bottom: 0;
     }
-    4%{
+    40%{
       bottom: 180px;
     }
     50%{
