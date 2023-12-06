@@ -1,5 +1,7 @@
 const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
+const gameover = document.querySelector('.gameover');
+const letreiro = document.querySelector('.letreiro');
 
 const jump = () =>{
 
@@ -28,8 +30,11 @@ const loop = setInterval(() => {
         mario.style.width = '75px'
         mario.style.marginLeft = '50px'
         
+        gameover.style.display = "inline-block";
+        letreiro.style.display = "inline-block";
         clearInterval(loop);
       }
+    
 }, 10);
 
 
